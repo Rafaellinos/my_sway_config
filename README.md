@@ -32,6 +32,9 @@ yay sway swaybg polkit wezterm
 
 
 - Mod1 = alt
+- reload sway = mod + shift + c
+- close current window = mod + shift + q (kill)
+- move between workspaces = mod+shift+<workspace number>
 
 ## menu
 
@@ -45,7 +48,7 @@ yay wofi
 ## Top bar
 
 ```bash
-yay  
+yay waybar ttf-font-awesome 
 ```
 
 ```config
@@ -54,7 +57,18 @@ bar {
 }
 ```
 
+```bash
+mkdir ~/.config/waybar && cp /etc/xdg/waybar/* ~/.config/waybar/
+```
+
 ## Terminal
 
 - change set `$term` for wezterm
 
+## Visual configuration
+
+
+
+## Sources
+
+- https://www.youtube.com/watch?v=QAmTUkzpIiM
